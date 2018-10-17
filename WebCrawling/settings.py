@@ -21,6 +21,8 @@ NEWSPIDER_MODULE = 'WebCrawling.spiders'
 # Obey robots.txt rules
 ROBOTSTXT_OBEY = True
 
+#Feed exports encoding
+FEED_EXPORT_ENCODING = 'utf-8'
 # Configure maximum concurrent requests performed by Scrapy (default: 16)
 #CONCURRENT_REQUESTS = 32
 

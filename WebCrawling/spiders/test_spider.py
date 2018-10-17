@@ -1,6 +1,6 @@
 import scrapy
 
-class QuotesSpider(scrapy.Spider):
+class TestSpider(scrapy.Spider):
     name = "test"
     start_urls = [
             'https://kinhdoanh.vnexpress.net/tin-tuc/quoc-te/nha-may-my-thanh-nan-nhan-vi-don-thue-cua-ong-trump-3824309.html',
