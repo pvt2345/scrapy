@@ -1,5 +1,4 @@
 import scrapy
-import json
 
 class QuotesSpider(scrapy.Spider):
     name = "quotes"
