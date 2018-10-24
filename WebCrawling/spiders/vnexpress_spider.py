@@ -6,7 +6,9 @@ from scrapy import Selector
 class VnexpressSpider(scrapy.Spider):
     name = "vnexpress"
     start_urls = [
-                'https://vnexpress.net/tin-tuc/thoi-su/giao-thong/nguoi-dan-ba-lai-bmw-tong-gan-chuc-xe-may-o-sai-gon-3827260.html'
+        'https://vnexpress.net/tin-tuc/thoi-su/giao-thong/nguoi-dan-ba-lai-bmw-tong-gan-chuc-xe-may-o-sai-gon-3827260.html',
+        'https://vnexpress.net/tin-tuc/thoi-su/giao-thong/nu-doanh-nhan-lai-bmw-tong-loat-xe-o-sai-gon-nhan-co-bia-ruou-3827268.html'
+        # 'https://vnexpress.net/tin-tuc/thoi-su/giao-thong/xe-container-gay-tai-nan-lien-hoan-tren-quoc-lo-mot-nguoi-chet-3826458.html'
         ]
 
     # def start_requests(self):
@@ -37,10 +39,12 @@ class VnexpressSpider(scrapy.Spider):
             listcontent.append(sel.xpath('string(//p[1])').extract_first())
 
         # content = "".join(response.xpath('//article/p[@class="Normal"]/text()').extract())
-        content = "".join(item for item in listcontent)
+        content = "".join(item for item in listcontent).strip()
         author = subsection_.css("article strong::text").extract_first()
+        if(author is None):
+            author = response.xpath('//p[@class="author_mail"]/strong/text()').extract_first()
 
-        filename = '%s.txt' %page
+        filename = '%s.json' %page
 
         data = {
             'timestamp': timestamp,
@@ -50,8 +54,9 @@ class VnexpressSpider(scrapy.Spider):
             'content': content,
             'author': author
         }
-        with open(filename, "w", encoding='UTF-8') as f:
-            f.write(content)
 
-        f.close()
+        # with open(filename, "a", encoding='UTF-8') as f:
+        #     json.dump(data, f)
+
+        # f.close()
         yield data
