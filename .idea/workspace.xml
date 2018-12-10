@@ -1,10 +1,20 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BookmarkManager">
+    <bookmark url="file://$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py" line="31" mnemonic="5" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="58bb4ea7-5d6a-48de-aaf8-c1e679b3bbd5" name="Default Changelist" comment="more spider">
+      <change afterPath="$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_2.py" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/WebCrawling/test.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Selector-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.ipynb_checkpoints/Untitled-checkpoint.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Selector.ipynb" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawling/items.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawling/items.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawling/spiders/crawlspider.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawling/spiders/CrawlAuthorOnVnexpress.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py" beforeDir="false" afterPath="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_1.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -16,98 +26,90 @@
     <session id="-415000170">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="7" />
-          <entry key="project.open.time.0" value="1" />
-          <entry key="project.open.time.14" value="1" />
+          <entry key="project.closed" value="24" />
+          <entry key="project.open.time.0" value="3" />
+          <entry key="project.open.time.1" value="2" />
+          <entry key="project.open.time.14" value="2" />
           <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="1" />
+          <entry key="project.open.time.17" value="3" />
+          <entry key="project.open.time.18" value="1" />
+          <entry key="project.open.time.19" value="2" />
           <entry key="project.open.time.2" value="1" />
-          <entry key="project.open.time.22" value="1" />
+          <entry key="project.open.time.22" value="2" />
+          <entry key="project.open.time.23" value="1" />
+          <entry key="project.open.time.24" value="1" />
+          <entry key="project.open.time.25" value="1" />
+          <entry key="project.open.time.26" value="1" />
           <entry key="project.open.time.27" value="1" />
           <entry key="project.open.time.4" value="1" />
-          <entry key="project.opened" value="8" />
+          <entry key="project.open.time.42" value="1" />
+          <entry key="project.open.time.49" value="1" />
+          <entry key="project.opened" value="25" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="cfg" value="1" />
-          <entry key="gitignore" value="4" />
+          <entry key="gitignore" value="5" />
           <entry key="html" value="1" />
-          <entry key="ipynb" value="1" />
-          <entry key="json" value="4" />
-          <entry key="py" value="57" />
+          <entry key="ipynb" value="3" />
+          <entry key="json" value="5" />
+          <entry key="py" value="91" />
+          <entry key="txt" value="2" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="HTML" value="1" />
-          <entry key="IPNB" value="1" />
-          <entry key="JSON" value="4" />
-          <entry key="PLAIN_TEXT" value="5" />
-          <entry key="Python" value="57" />
+          <entry key="IPNB" value="3" />
+          <entry key="JSON" value="5" />
+          <entry key="PLAIN_TEXT" value="8" />
+          <entry key="Python" value="91" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="dummy" value="68" />
+          <entry key="dummy" value="106" />
           <entry key="gitignore" value="18" />
-          <entry key="py" value="3930" />
-          <entry key="txt" value="45" />
+          <entry key="py" value="8464" />
+          <entry key="txt" value="63" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="PLAIN_TEXT" value="131" />
-          <entry key="Python" value="3930" />
+          <entry key="PLAIN_TEXT" value="187" />
+          <entry key="Python" value="8464" />
         </counts>
       </usages-collector>
     </session>
   </component>
+  <component name="FavoritesManager">
+    <favorites_list name="WebCrawling" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quotes_by_tags_spider.py">
+        <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_1.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
-              <folding>
-                <marker date="1539766426949" expanded="true" signature="55:60" ph="..." />
-                <marker date="1539766426949" expanded="true" signature="155:160" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="18">
-              <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" />
+            <state relative-caret-position="102">
+              <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
               <folding>
                 <element signature="e#0#13#0" expanded="true" />
-                <marker date="1540184240493" expanded="true" signature="939:948" ph="..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quotes_spider.py">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="15" selection-start-line="15" selection-end-line="15" />
-              <folding>
-                <marker date="1539761659753" expanded="true" signature="49:54" ph="..." />
+                <marker date="1544432746814" expanded="true" signature="207:359" ph="..." />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/.gitignore">
+        <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="34">
-              <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+            <state relative-caret-position="238">
+              <caret line="121" column="90" selection-start-line="121" selection-start-column="90" selection-end-line="121" selection-end-column="90" />
+              <folding>
+                <element signature="e#0#45#0" expanded="true" />
+                <marker date="1544435849818" expanded="true" signature="183:188" ph="..." />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -134,7 +136,6 @@
       <list>
         <option value="$PROJECT_DIR$/WebCrawling/spiders/quote_spider.py" />
         <option value="$PROJECT_DIR$/WebCrawling/spiders/dantri_spider.py" />
-        <option value="$PROJECT_DIR$/WebCrawling/spiders/quotes_spider.py" />
         <option value="$PROJECT_DIR$/WebCrawling/spiders/quote_following_link.py" />
         <option value="$PROJECT_DIR$/WebCrawling/spiders/author_spider.py" />
         <option value="$PROJECT_DIR$/WebCrawling/spiders/quote_following_link.spider.py" />
@@ -143,17 +144,28 @@
         <option value="$PROJECT_DIR$/WebCrawling/spiders/quotes_by_tags_spider.py" />
         <option value="$PROJECT_DIR$/WebCrawling/test.py" />
         <option value="$PROJECT_DIR$/WebCrawling/settings.py" />
-        <option value="$PROJECT_DIR$/WebCrawling/spiders/crawlspider.py" />
         <option value="$PROJECT_DIR$/Selector.ipynb" />
         <option value="$PROJECT_DIR$/.gitignore" />
+        <option value="$PROJECT_DIR$/selector.py" />
+        <option value="$PROJECT_DIR$/Items/item.py" />
+        <option value="$PROJECT_DIR$/Items/itemloader.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/items.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/crawlspider.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/quotes_spider.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/content_mining.py" />
         <option value="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py" />
+        <option value="$PROJECT_DIR$/chelsea.json" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_2.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/CrawlAuthorOnVnexpress.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_1.py" />
+        <option value="$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py" />
       </list>
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="953" />
-    <option name="width" value="974" />
-    <option name="height" value="1047" />
+    <option name="x" value="950" />
+    <option name="width" value="975" />
+    <option name="height" value="1050" />
   </component>
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
@@ -202,7 +214,28 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Python.CrawlMultilinkOnVnexpress">
+    <configuration name="CrawlMultilinkOnVnexpress" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/WebCrawling/spiders" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <configuration name="crawlspider" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="WebCrawling" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -215,7 +248,7 @@
       <option name="IS_MODULE_SDK" value="true" />
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/WebCrawling/spiders/crawlspider.py" />
+      <option name="SCRIPT_NAME" value="D:\WebCrawling\WebCrawling\spiders\CrawlAuthorOnVnexpress.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -224,8 +257,36 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="selector" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="WebCrawling" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/selector.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue="Python.crawlspider" />
+      <item itemvalue="Python.selector" />
+      <item itemvalue="Python.CrawlMultilinkOnVnexpress" />
+    </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.CrawlMultilinkOnVnexpress" />
+        <item itemvalue="Python.selector" />
         <item itemvalue="Python.crawlspider" />
       </list>
     </recent_temporary>
@@ -262,26 +323,33 @@
       <option name="project" value="LOCAL" />
       <updated>1540180014671</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="update vnexpress">
+      <created>1540345797928</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1540345797928</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.30874604" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" sideWeight="0.49716714" visible="true" weight="0.19497687" />
+      <window_info id="Structure" order="1" sideWeight="0.5028329" side_tool="true" weight="0.19497687" />
+      <window_info id="Favorites" order="2" sideWeight="0.50141644" side_tool="true" weight="0.19497687" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.37703142" />
+      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.49947312" visible="true" weight="0.13739377" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="bottom" id="Version Control" order="7" show_stripe_button="false" />
       <window_info anchor="bottom" id="Terminal" order="8" weight="0.3575298" />
-      <window_info anchor="bottom" id="Event Log" order="9" side_tool="true" />
+      <window_info anchor="bottom" id="Event Log" order="9" sideWeight="0.50052685" side_tool="true" weight="0.37677053" />
       <window_info anchor="bottom" id="Python Console" order="10" weight="0.52112675" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -313,7 +381,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="more spider" />
     <MESSAGE value="update spider for vnexpress" />
-    <option name="LAST_COMMIT_MESSAGE" value="update spider for vnexpress" />
+    <MESSAGE value="update vnexpress" />
+    <option name="LAST_COMMIT_MESSAGE" value="update vnexpress" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/scrapy.cfg">
@@ -328,29 +397,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/middlewares.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-990" />
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/output.json">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="17">
           <caret line="1" column="2366" lean-forward="true" selection-start-line="1" selection-start-column="2366" selection-end-line="1" selection-end-column="2366" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="442">
-          <caret line="35" column="14" selection-start-line="35" selection-start-column="14" selection-end-line="35" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/http/response/text.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1904">
-          <caret line="123" column="8" selection-start-line="123" selection-start-column="8" selection-end-line="123" selection-end-column="8" />
         </state>
       </provider>
     </entry>
@@ -364,13 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/items.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="23" lean-forward="true" selection-start-column="23" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawling/settings.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-238">
@@ -378,20 +421,40 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Selector.ipynb">
-      <provider selected="true" editor-type-id="ipnb-editor">
-        <state>
-          <selected id="8" />
+    <entry file="file://$PROJECT_DIR$/Selector.ipynb" />
+    <entry file="file://$PROJECT_DIR$/quotebytag.json" />
+    <entry file="file://$PROJECT_DIR$/.ipynb_checkpoints/Selector-checkpoint.ipynb" />
+    <entry file="file://$PROJECT_DIR$/selector.py" />
+    <entry file="file://$PROJECT_DIR$/Items/item.py" />
+    <entry file="file://$PROJECT_DIR$/Items/itemloader.py" />
+    <entry file="file://$PROJECT_DIR$/WebCrawling/middlewares.py">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/spiders/__init__.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="442">
+          <caret line="64" column="13" selection-start-line="64" selection-start-column="13" selection-end-line="64" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/quotebytag.json">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/crawlspider.py">
+    <entry file="file://$PROJECT_DIR$/WebCrawling/items.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="35" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
+        <state relative-caret-position="221">
+          <caret line="13" column="59" selection-start-line="13" selection-start-column="59" selection-end-line="13" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/chelsea.json">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="1" column="1745" selection-start-line="1" selection-start-column="1745" selection-end-line="1" selection-end-column="1745" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/.gitignore">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="34">
+          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
         </state>
       </provider>
     </entry>
@@ -402,32 +465,55 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quote_following_link_spider.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="306">
-          <caret line="18" column="28" selection-start-line="18" selection-start-column="28" selection-end-line="18" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quotes_by_tags_spider.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" column="27" selection-start-line="9" selection-start-column="27" selection-end-line="9" selection-end-column="27" />
+        <state relative-caret-position="51">
+          <caret line="3" column="4" selection-start-line="3" selection-start-column="4" selection-end-line="3" selection-end-column="4" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quotes_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="10" selection-start-line="6" selection-start-column="10" selection-end-line="6" selection-end-column="10" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/nguoi-dan-ba-lai-bmw-tong-gan-chuc-xe-may-o-sai-gon-3827260.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="184" selection-start-line="6" selection-start-column="184" selection-end-line="6" selection-end-column="184" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_2.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="136">
+          <caret line="11" column="8" selection-start-line="11" selection-start-column="8" selection-end-line="32" selection-end-column="15" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/CrawlAuthorOnVnexpress.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="612">
+          <caret line="36" column="19" lean-forward="true" selection-start-line="21" selection-start-column="7" selection-end-line="36" selection-end-column="19" />
           <folding>
-            <marker date="1539766426949" expanded="true" signature="55:60" ph="..." />
-            <marker date="1539766426949" expanded="true" signature="155:160" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider.py">
+    <entry file="file://E:/Anaconda3/Lib/site-packages/parsel/selector.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="18">
-          <caret line="12" lean-forward="true" selection-start-line="12" selection-end-line="13" />
-          <folding>
-            <element signature="e#0#13#0" expanded="true" />
-            <marker date="1540184240493" expanded="true" signature="939:948" ph="..." />
-          </folding>
+        <state relative-caret-position="-1006">
+          <caret line="208" column="8" selection-start-line="208" selection-start-column="8" selection-end-line="208" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://E:/Anaconda3/Lib/site-packages/scrapy/http/response/text.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="508">
+          <caret line="121" column="29" lean-forward="true" selection-start-line="121" selection-start-column="29" selection-end-line="121" selection-end-column="29" />
         </state>
       </provider>
     </entry>
@@ -435,26 +521,42 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="102">
           <caret line="6" selection-start-line="6" selection-end-line="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quote_following_link_spider.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="323">
+          <caret line="19" column="18" lean-forward="true" selection-start-line="19" selection-start-column="18" selection-end-line="19" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/vnexpress_spider_1.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="102">
+          <caret line="6" column="24" selection-start-line="6" selection-start-column="24" selection-end-line="6" selection-end-column="24" />
           <folding>
-            <marker date="1539849481913" expanded="true" signature="42:47" ph="..." />
+            <element signature="e#0#13#0" expanded="true" />
+            <marker date="1544432746814" expanded="true" signature="207:359" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/quotes_spider.py">
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/content_mining.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" selection-start-line="15" selection-end-line="15" />
-          <folding>
-            <marker date="1539761659753" expanded="true" signature="49:54" ph="..." />
-          </folding>
+        <state relative-caret-position="303">
+          <caret line="71" column="56" selection-start-line="71" selection-start-column="56" selection-end-line="71" selection-end-column="56" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/.gitignore">
+    <entry file="file://$PROJECT_DIR$/WebCrawling/spiders/CrawlMultilinkOnVnexpress.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="34">
-          <caret line="2" column="7" lean-forward="true" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
+        <state relative-caret-position="238">
+          <caret line="121" column="90" selection-start-line="121" selection-start-column="90" selection-end-line="121" selection-end-column="90" />
+          <folding>
+            <element signature="e#0#45#0" expanded="true" />
+            <marker date="1544435849818" expanded="true" signature="183:188" ph="..." />
+          </folding>
         </state>
       </provider>
     </entry>
