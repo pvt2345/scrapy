@@ -20,8 +20,9 @@ class VnexpressSpider(CrawlSpider):
             self.start_urls = ['https://vnexpress.net/tin-tuc/%s' %category]
             self.rules = (
             Rule(LinkExtractor(allow='https://vnexpress.net/tin-tuc/{}/page/[1-{}].html'.format(category, pages))),
-            Rule(LinkExtractor(allow=('/%s/[0-9A-Za-z-]*.html' %category), deny=('https://video.vnexpress.net/tin-tuc/the-gioi/[0-9A-Za-z-]*.html', '/photo/', '/infographics/'),),
+            Rule(LinkExtractor(allow=('/%s/[0-9A-Za-z-]*.html' %category), deny=('https://video.vnexpress.net/tin-tuc/the-gioi/[0-9A-Za-z-]*.html', '/infographics/'),),
                                         callback='parse_item'),
+            Rule(LinkExtractor(allow=('/photo/')), callback='parse_photo')
             )
 
 
@@ -29,7 +30,7 @@ class VnexpressSpider(CrawlSpider):
             self.allowed_domains = ['kinhdoanh.vnexpress.net']
             self.start_urls = ['https://kinhdoanh.vnexpress.net/']
             self.rules = (
-                Rule(LinkExtractor(allow='https://kinhdoanh.vnexpress.net/page/[1-%s].html' %pages)),
+                    Rule(LinkExtractor(allow='https://kinhdoanh.vnexpress.net/page/[1-%s].html' %pages)),
                 # Rule(LinkExtractor(allow=('/tin-tuc/[0-9A-Za-z]*.html',
                 #                           '/tin-tuc/doanh-nghiep/[0-9A-Za-z-]*.html', '/tin-tuc/doanh-nghiep/doanh-nghiep-viet/[0-9A-Za-z-]*.html', #doanh_nghiep
                 #                           '/tin-tuc/bat-dong-san/[0-9A-Za-z-]*.html', '/tin-tuc/bat-dong-san/du-an/[0-9A-Za-z-]*.html', #bat dong san
@@ -124,9 +125,8 @@ class VnexpressSpider(CrawlSpider):
                                          '/infographics/')),
                      callback='parse_item'),
             )
-
-
         self._compile_rules()
+
     def parse_item(self, response):
         try:
             # page = response.url.split("/")[-1]
@@ -191,5 +191,31 @@ class VnexpressSpider(CrawlSpider):
         finally:
             pass
 
+    def parse_photo(self, response):
+        main = response.css("section.container").css("section.sidebar_1")
+        timestamp = main.css("header").css("span::text").extract_first()
+        title = main.css("h1::text").extract_first().strip()
+        description = main.css("h2::text").extract_first().strip()
+        related_news = main.css("p.related_news").css("a::attr(href)").extract()
+        # photo = main.css("div.item_slide_show").css('img[class*=displayAfterResize]::attr(data-original)').extract()
+        photo_set = main.css("div.item_slide_show")
+        photo = []
+        for item in photo_set:
+            photo_link = item.css('img[class*=displayAfterResize]::attr(data-original)').extract_first()
+            caption = "".join(item.css('div.desc_cation').css('p::text').extract())
+            if (caption is not None):
+                photo.append({"photo_link": photo_link, "caption": caption})
+            else:
+                photo.append({"photo_link": photo_link})
+
+        data = {
+            "timestamp": timestamp,
+            "title": title,
+            "description": description,
+            "related_news": related_news,
+            "photo": photo
+        }
+
+        yield data
 # if __name__ == '__main__':
 #     VnexpressSpider()

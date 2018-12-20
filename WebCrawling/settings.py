@@ -70,10 +70,9 @@ SCHEDULER_MEMORY_QUEUE = 'scrapy.squeues.FifoMemoryQueue'
 
 # Configure item pipelines
 # See https://doc.scrapy.org/en/latest/topics/item-pipeline.html
-#ITEM_PIPELINES = {
-#    'WebCrawling.pipelines.WebcrawlingPipeline': 300,
-#}
+ITEM_PIPELINES = {'scrapy.pipelines.files.FilesPipeline': 1}
 
+FILES_STORE = 'D:/File/'
 # Enable and configure the AutoThrottle extension (disabled by default)
 # See https://doc.scrapy.org/en/latest/topics/autothrottle.html
 #AUTOTHROTTLE_ENABLED = True

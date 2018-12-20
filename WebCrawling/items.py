@@ -13,3 +13,7 @@ class Author(scrapy.Item):
     name = scrapy.Field(output_processor=TakeFirst())
     description = scrapy.Field(output_processor=TakeFirst())
     info = scrapy.Field(output_processor=TakeFirst())
+
+class File_Item(scrapy.Item):
+    file_urls = scrapy.Field()
+    files = scrapy.Field()
